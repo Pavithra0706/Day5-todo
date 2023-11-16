@@ -133,7 +133,7 @@ const Input = ({ allTodos, setallTodos }) => {
 
     <article className="row">
           <section className="col-sm-6 ">
-            <h3>My todos</h3>
+            <h3>MY TODO LIST</h3>
           </section>
           <section className="col-sm-6 ">
             

@@ -9,7 +9,7 @@ function App() {
     <main className="container">
       <hgroup className="px-lg-5">
         <article className="row justify-content-center my-5">
-          <h1 className="text-center light-green">My todo</h1>
+          <h1 className="text-center light-green">MY TODO</h1>
           <Input
             allTodos={allTodos} setallTodos={setallTodos}
           
