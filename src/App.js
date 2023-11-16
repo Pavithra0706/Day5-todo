@@ -1,24 +1,22 @@
-
-import './App.css';
+import "bootstrap/dist/css/bootstrap.css";
+import "./App.css";
+import Input from "./Input";
+import { useState } from "react";
 
 function App() {
+  const [allTodos, setallTodos] = useState([]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="container">
+      <hgroup className="px-lg-5">
+        <article className="row justify-content-center my-5">
+          <h1 className="text-center light-green">My todo</h1>
+          <Input
+            allTodos={allTodos} setallTodos={setallTodos}
+          
+          />
+        </article>  
+      </hgroup>
+    </main>
   );
 }
 

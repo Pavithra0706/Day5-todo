@@ -88,6 +88,9 @@ const Input = ({ allTodos, setallTodos }) => {
       
         localStorage.setItem("todolist", JSON.stringify(updatedUserList));
       };
+      
+  
+
   return (
     <>
     <form action='' method='get'>
@@ -130,7 +133,7 @@ const Input = ({ allTodos, setallTodos }) => {
 
     <article className="row">
           <section className="col-sm-6 ">
-            <h3>MY TODOS LIST</h3>
+            <h3>My todos</h3>
           </section>
           <section className="col-sm-6 ">
             

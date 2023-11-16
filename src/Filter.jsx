@@ -1,10 +1,13 @@
 import React from 'react'
 
   const Filter = ({ onFilterChange,setFilterStatus,filterStatus }) => {
+
+
     const handleFilterChange = (status) => {
       setFilterStatus(status);
       onFilterChange(status);
     };
+  
     return (
 <div className='d-flex justify-content-end'>
      <h4 htmlFor="status">Status : </h4>
